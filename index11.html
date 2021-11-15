@@ -1,0 +1,270 @@
+<html>
+	<head>
+		<title> CSS </title>
+		<style type="text/css">
+			body{
+			background:#F00;
+			}
+			#mainarea{
+			width:1200px;
+			height:1500px;
+			background:#FF0;
+			margin:0 auto;
+			}
+			#toparea{
+			width:1200px;
+			height:150px;
+			background:violet;
+			}
+			#logoarea{
+			width:150px;
+			height:150px;
+			background:lightgreen;
+			float:left;
+			}
+			#titlearea{
+			width:1050px;
+			height:150px;
+			background:black;
+			float:left;
+			}
+			#menuarea{
+			width:1200px;
+			height:40px;
+			background:indigo;
+			}
+			#menuarea ul li{
+			float:left;
+			}
+			#menuarea ul{
+			margin:0;
+			padding:0;
+			list-style-type:none;
+			}
+			#menuarea ul li a:link,#menuarea ul li a:visited{
+			color:red;
+			background:yellow;
+			text-decoration:none;
+			padding:10px 25px;
+			display:block;
+			border-right:solid 1px #000;
+			}
+			#menuarea ul li a:hover{
+			color:yellow;
+			background:red;
+			}
+			#menuarea ul li ul{
+			display:none;
+			}
+			
+			#menuarea ul li:hover ul{
+			display:blo
+			position:absolute;
+			z-index:100;
+			}
+			#menuarea ul li:hover ul li{
+			float:none;
+			}
+			#menuarea ul li:hover ul li a:link,#menuarea ul li:hover ul li a:visited{	
+			border-right:none;
+			border-bottom:solid 1px #000;
+			}
+			#slidearea{
+			width:1200px;
+			height:300px;
+			background:blue;
+			float:left;
+			}
+			
+			#boxarea{
+			width:1200px;
+			height:300px;
+			background:green;
+			/*background-image:linear-gradient(to top,red,yellow,green,blue);
+			background-image:linear-gradient(to top,blue 30%,yellow 90%,pink 100%);
+			background-image:linear-gradient(30deg,blue 60%,yellow 80%,brown 100%);
+			background-image:repeating-linear-gradient(to right,blue 0%,yellow 20%);
+			background-image:radial-gradient(red 0%,yellow 20%,green 100%);*/
+			background-image:repeating-radial-gradient(red 0%,yellow 20%);
+			float:left;
+			}
+			#b1{
+			width:600px;
+			height:300px;
+			background:brown;
+			float:left;
+			}
+			#b2{
+			width:600px;
+			height:300px;
+			background:#FFA500;
+			float:left;
+			}
+			#darea{
+			width:1200px;
+			height:300px;
+			background:orange;
+			}
+			#d1{
+			width:400px;
+			height:300px;
+			background:#FF00FF;
+			float:left;
+			}
+			#d2{
+			width:400px;
+			height:300px;
+			background:#20B2AA;
+			float:left;
+			}
+			#d3{
+			width:400px;
+			height:300px;
+			background:#000080;
+			float:left;
+			}
+			#footerarea{
+			width:1200px;
+			height:410px;
+			background:pink;
+			}
+			#f1{
+			width:300px;
+			height:410px;
+			background:RosyBrown;
+			float:left;
+			}
+			#f1 ul{
+			/*list-style-type:lower-greek;
+			list-style-image:url('arr.png');
+			list-style-position:inside;*/
+			list-style:square url('arr.png') inside;
+			}
+			#f2{
+			width:300px;
+			height:410px;
+			background:Chocolate;
+			float:left;
+			}
+			#f2 ul{
+			margin:0;
+			padding:0;
+			}
+			#f3{
+			width:300px;
+			height:410px;
+			background:SkyBlue;
+			float:left;
+			}
+			#f3 a:link{
+			color:red;
+			}
+			#f3 a:visited{
+			color:green;
+			}
+			#f3 a:hover{
+			color:yellow;
+			}
+			#f3 a:active{
+			color:blue;
+			}
+			#f4{
+			width:300px;
+			height:410px;
+			background:Wheat;
+			float:left;
+			}
+			#f4 ul{
+			margin:0;
+			padding:0;
+			list-style-type:none;
+			}
+			#f4 ul li a:link,#f4 ul li a:visited{
+			color:red;
+			background:yellow;
+			text-decoration:none;
+			padding:10px 25px;
+			display:block;
+			border-bottom:solid 1px #000;
+			}
+			#f4 ul li a:hover{
+			color:yellow;
+			background:red;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="mainarea">
+			<div id="toparea">
+				<div id="logoarea">
+				</div>
+				<div id="titlearea">
+				</div>
+			</div>
+			<div id="menuarea">
+					<ul>
+						<li> <a href="#"> HOME </a> </li>
+						<li> <a href="#"> ABOUT </a> </li>
+						<li> <a href="#"> GALLERY </a> </li>
+						<li> <a href="#"> CONTACT </a>  </li>
+						<li> <a href="#"> PRODUCT </a> 
+							<ul>
+								<li> <a href="#"> PRODUCT 1 </a> </li>
+								<li> <a href="#"> PRODUCT 2 </a> </li>
+								<li> <a href="#"> PRODUCT 3 </a> </li>
+								<li> <a href="#"> PRODUCT 4 </a> </li>
+							</ul>
+						 </li>
+					</ul>	
+			</div>
+			<div id="slidearea">
+				<img src="wallpaper.jpg" width="1200px" height="300px"/>	
+			</div>
+			<div id="boxarea">
+				
+			</div>
+			<div id="darea">
+				<div id="d1">
+				</div>
+				<div id="d2">
+				</div>
+				<div id="d3">
+				</div>
+			</div>
+			<div id="footerarea">
+				<div id="f1">
+					<ul>
+						<li> HOME </li>
+						<li> ABOUT </li>
+						<li> GALLERY </li>
+						<li> CONTACT </li>
+					</ul>
+				</div>
+				<div id="f2">
+					<ul>
+						<li> HOME </li>
+						<li> ABOUT </li>
+						<li> GALLERY </li>
+						<li> CONTACT </li>
+					</ul>
+				</div>
+				<div id="f3">
+					<ul>
+						<li> <a href="#"> HOME </a> </li>
+						<li> <a href="#"> ABOUT </a> </li>
+						<li> <a href="#"> GALLERY </a> </li>
+						<li> <a href="#"> CONTACT </a>  </li>
+					</ul>
+				</div>
+				<div id="f4">
+					<ul>
+						<li> <a href="#"> HOME </a> </li>
+						<li> <a href="#"> ABOUT </a> </li>
+						<li> <a href="#"> GALLERY </a> </li>
+						<li> <a href="#"> CONTACT </a>  </li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
